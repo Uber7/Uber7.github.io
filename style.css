@@ -94,7 +94,7 @@ background-attachment: fixed;
 text-align:center;
 background-size:cover;
 background-position: center center;
-margin-bottom:15%;
+margin-bottom:10;
 height:100%;
 background-repeat: no-repeat;
 background-size: contain;
@@ -555,7 +555,5 @@ li a:hover {
 
 
 /*=======FOOTER========*/
-
-
 
 }
