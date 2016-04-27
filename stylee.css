@@ -1,299 +1,49 @@
 
-h1{
-	text-align:center;
-	font-size:500%;
-	color:#30638E;
-	text-transform: uppercase;
-	letter-spacing:1%;
-	margin:0% auto;
-	text-shadow: 5px 5px 5px #CCCCCC;
-
-}
-
-
-
-h2{
-	text-align:center;
-	font-size:500%;
-	color:#5DD9C1;
-	text-transform: uppercase;
-	letter-spacing:1%;
-	letter-spacing:1%;
-	margin:0% auto;
-	text-shadow: 5px 5px 5px #CCCCCC;
-}
-
-h3{
-	text-align: center;
-	font-size:500%;
-	color:#0F084B;
-	letter-spacing:1%;
-	margin:0% auto;
-	text-shadow: 5px 5px 5px #CCCCCC;
-}
-
-
-
-
- /*-------start parallax------*/
-
-.parallax{background-image:url(Images/CubsLogo.jpg);
-background-position:center;
-background-attachment:fixed;
-background-size:cover;
-background-repeat: repeat;
-
-
-
-}
-
-
-.parallax-inner{ padding-top:16%;
-				padding-bottom:21%;
-				margin-top:5%;}
-
-
-
-
- .parallax2{ background-image:url(Images/Inside.jpg);
- background-image:center;
- background-position:middle;
- background-attachment:fixed;
- background-size:cover;
- padding-bottom:20%;
- }
-
- .inside2{background-image:url(Images/w2.jpg);
- padding:50%;
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
- margin-top:15%;
- padding:340px;
- background-position: center center
-
-
- }
-
- .parallax-inner2{ 
- 				  
- 				  padding-top:20%;
- 				  padding-bottom:30%;
- 				  margin-bottom:15%;
- 				  padding-right:10%;
- 				  
-
-			  	
-
- }
-
-.p3{background-image:url(Images/Dex.jpg);
-background-attachment: fixed;
-background-size:cover;
-background-position: center center;
-margin-bottom:10;
-height:100%;
-background-repeat: no-repeat;
-background-size: contain;
-		
-
-}
-
-.dexter2{background-image: url(Images/Dexter.jpg);
- 
-padding:30%;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-background-position: center center;
-margin-top:7%;
-background-size: contain;
-
-}
-
-
-
-
-
-
-.p4{background-image:url(Images/J1.jpg);
-	background-size:cover;
-	background-attachment:fixed;
-	background-position:center center;
-	background-image:center;
-	padding-bottom:36%;
-	margin-bottom:1%;
-	padding-top:3%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin-top:1%;
-}
-
-
-
-
-
-
-
-.p5{background-image: url(Images/Marquee.jpg);
-	padding:300px;
-	background-size:cover;
-	background-attachment: fixed;
-	background-position: center center
-
-
-}
-
-
-
-  /*------End parallax------*/
-
-
-
-.site-footer {
-
-  
-}
-
-
-#footer1{
-margin-left:40%;
-margin-right:40%;
-float:bottom;
-text-align:center;
-padding-bottom:.5%;
-
-
-} 
-
-
-
-p{font-size:30;
-color:#4A7B9D;
-}
-
-
-
-@import "compass/css3";
-
-@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
-
-
-body{
-  background: black;
-}
-
-svg{
-  width: 600px;
-  height: 120px;
-  display: block;
-  position: relative;
-  overflow: hidden; 
-  margin: 0 auto;
-  background: transparent
-  ;
-}
-
-
-nav{
-
-
-}
-
-nav ul{
-list-style-type:none;
-text-align: center;
-
-}
-
-nav ul li{
-	display: inline-block;
-	margin: 0 40px;
-	font-size: 25px;
-
-
-}
-
-
-li a:link, li a:hover, li a:active, li a:visited {
-
-text-decoration: none;
-
-
-color: #086375;
-}
-
-li a:hover {
-
-	text-decoration: underline;
-	font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----hover links------*/
-
 .demo-4 {
-  width: 205px;
+  width: 300px;
   background-color: transparent;
   cursor: pointer;
   border-color: #780116;
+  background-color:black;
+
 }
  
 .demo-4:hover {
-  border-color: black;
+  border-color: red;
+
 }
  
 .demo-4 span:nth-child(1) {
   color:#034078;
+  background-color:black;
+
 }
  
 .demo-4 span:nth-child(2) {
   color: red;
+  background-color:;
 }
  
 .demo-4 span {
   font-family: 'Lato', sans-serif;
   font-size: 26px;
   letter-spacing: 3px;
+
 }
- 
+ /*==========ISSUE?=========*/
 .demo-4 {
   position: relative;
   box-sizing: border-box;
-  padding: 0;
-  border-style: none;
-  height: 65px;
-  display: inline-block;
+  padding: 0 0;
+  border-style:none;
+  width:250px;
+  height:65px;
+  display:inline-block;
+  background-color:black;
 }
  
+
+ /*===================ISSUE?*/
 .demo-4 span {
   position: absolute;
   box-sizing: border-box;
@@ -458,7 +208,7 @@ li a:hover {
     55%  {left: 49%; width: 11%;}
     100% {left: 49%; width: 8%; opacity: 0.2;}
 }
- 
+  
 @-webkit-keyframes top-center {
     0%   {top: 0%; height: 0%; opacity: 0.2;}
     50%  {top: 0%; height: 0%;}
@@ -561,9 +311,4 @@ li a:hover {
     40%  {top: 80%; height: 20%;}
     50%  {top: 100%; height: 0%;}
     100% {top: 100%; height: 0%; opacity: 0.2;}
-}
-
-
-/*=======FOOTER========*/
-
 }
