@@ -98,7 +98,7 @@ p:nth-child(5) a:hover {
 
 p:nth-child(6) a {
   color: #BA01FF;
-  font-family: Vampiro One;
+  font-family: Vampiro One ;
 }
 
 p:nth-child(6) a:hover {
@@ -406,7 +406,7 @@ background-repeat:repeat;
 }
 
 
-.Jon{ background-image: url(Images/Jon.jpg);
+.Jon{ background-image: url(Images/JON.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
